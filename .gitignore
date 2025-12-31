@@ -1,0 +1,19 @@
+# Frontend dependencies
+node_modules/
+
+# Backend dependencies
+backend/node_modules/
+
+# Parcel build & cache
+dist/
+.parcel-cache/
+
+# Environment variables
+.env
+backend/.env
+
+# Logs
+npm-debug.log*
+
+# OS files
+.DS_Store

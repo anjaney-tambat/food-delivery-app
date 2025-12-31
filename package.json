@@ -1,0 +1,36 @@
+{
+  "name": "food-delivery-app",
+  "version": "1.0.0",
+  "description": "This is a food delivery app by Anjaney Tambat",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjaney-tambat/food-delivery-app.git"
+  },
+  "keywords": [],
+  "author": "Anjaney Tambat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anjaney-tambat/food-delivery-app/issues"
+  },
+  "homepage": "https://github.com/anjaney-tambat/food-delivery-app#readme",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "autoprefixer": "^10.4.23",
+    "parcel": "^2.16.1",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^6.30.2"
+  },
+  "browsersList": [
+    "Last 3 versions"
+  ]
+}
