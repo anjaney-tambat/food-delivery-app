@@ -3,7 +3,9 @@ import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { CartContext } from "../utils/CartContext";
 import { AuthContext } from "../utils/AuthContext";
+
 const Checkout = () => {
+  const navigate = useNavigate();
   const { cartItems, clearCart } = useContext(CartContext);
   const { user } = useContext(AuthContext);
 
