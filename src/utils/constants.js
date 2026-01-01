@@ -1,6 +1,6 @@
 export const API_BASE_URL =
   process.env.NODE_ENV === "production"
-    ? "https://YOUR_BACKEND_URL.onrender.com" // replace after deploy
+    ? "https://food-delivery-app-gfw8.onrender.com/" 
     : "http://localhost:5000";
 
 export const CDN_URL = 
